@@ -25,6 +25,7 @@
 	    "amount": "300.23"
     }
     
+    - Example 2:
     http://localhost:3000/api/boleto/123
     response: {
 	    "errors": [
