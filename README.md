@@ -18,7 +18,7 @@
   
   - getData: http://localhost:3000/api/boleto/code
   
-  - Example:
+    - Example:
     http://localhost:3000/api/boleto/836800000033002300481005222180569212001836093839
     response: {
 	    "barCode": "83680000003002300481002221805692100183609383",
