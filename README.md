@@ -3,6 +3,8 @@
 # install project
   - npm install
 
+# create .env and .env.test files (PORT variable = 3000)
+
 # run tests
   - npm run test
 
@@ -14,19 +16,19 @@
  
  
 # endpoints
-  - test: http://localhost:3000/api/status
+  - test: http://localhost:PORT/api/status
   
   - getData: http://localhost:3000/api/boleto/code
   
     - Example:
-    http://localhost:3000/api/boleto/836800000033002300481005222180569212001836093839
+    http://localhost:PORT/api/boleto/836800000033002300481005222180569212001836093839
     response: {
 	    "barCode": "83680000003002300481002221805692100183609383",
 	    "amount": "300.23"
     }
     
     - Example 2:
-    http://localhost:3000/api/boleto/123
+    http://localhost:PORT/api/boleto/123
     response: {
 	    "errors": [
 		    {
