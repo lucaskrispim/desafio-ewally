@@ -3,7 +3,8 @@
 # install project
   - npm install
 
-# create .env and .env.test files (PORT variable = 3000)
+# create .env and .env.test files 
+  - create PORT variable in file
 
 # run tests
   - npm run test
